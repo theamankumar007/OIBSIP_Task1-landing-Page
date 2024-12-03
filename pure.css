@@ -1,0 +1,128 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Section */
+.header {
+    background: linear-gradient(to right, #cb2711, #fc9b25);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.header p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+
+.cta-button {
+    text-decoration: none;
+    padding: 12px 25px;
+    background-color: white;
+    color: #6a11cb;
+    border-radius: 25px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #ddd;
+}
+
+/* About Section */
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about {
+    background-color: #f4f4f4;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.about p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.poster img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+/* Services Section */
+.services {
+    background-color: #fff;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background: #f3a920f1;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
